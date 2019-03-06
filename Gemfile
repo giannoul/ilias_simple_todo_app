@@ -29,7 +29,7 @@ platform :ruby do
   gem 'sqlite3'
 
   gem 'newrelic_rpm', '~> 3.9.9'
-  gem 'unicorn'
+  #gem 'unicorn'
   gem 'puma'
   gem 'json', '>= 2.0'
   gem 'minitest'
