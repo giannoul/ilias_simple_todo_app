@@ -21,6 +21,7 @@ gem 'sass', '~> 3.4.9'
 gem 'sass-rails'
 gem 'coffee-rails'
 gem 'uglifier'
+gem 'concurrent-ruby','1.1.2'
 
 platform :ruby do
   gem 'mysql2', '~> 0.3.17'
@@ -35,6 +36,7 @@ platform :ruby do
   gem 'minitest'
   gem 'psych', '~> 2.0.8'
   gem 'racc'
+  
 end
 
 platforms :jruby do
