@@ -74,6 +74,7 @@ GEM
     newrelic_rpm (3.9.9.275)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
+    pg (0.18.4)
     psych (2.0.17)
     puma (3.12.0)
     racc (1.4.15)
@@ -363,6 +364,7 @@ DEPENDENCIES
   mysql2 (~> 0.3.17)
   newrelic_rpm (~> 3.9.9)
   nokogiri (~> 1.6.0)
+  pg (~> 0.18.1)
   psych (~> 2.0.8)
   puma
   racc
@@ -378,6 +380,3 @@ DEPENDENCIES
   sqlite3
   trinidad
   uglifier
-
-BUNDLED WITH
-   1.16.1
