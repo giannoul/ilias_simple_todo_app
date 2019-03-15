@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+<<<<<<< HEAD
 ruby '2.5.3'
 
 gem 'rake','0.9.2.2'
@@ -24,6 +25,41 @@ gem 'ancestry','1.2.5'
 gem 'paperclip','2.3.8'
 gem 'test-unit', '1.2.3', :platforms => :ruby_19
 gem 'rspec-rails', '1.3.3'
+=======
+gem 'rails', '~> 4.2.0'
+
+gem 'ey_config'
+gem 'rails_autolink'
+gem 'simple_form', '~> 3.1.0'
+
+gem 'nokogiri', '~> 1.6.0'
+gem 'rake', '~> 10.4'
+gem 'rgeo', '~> 0.3'
+
+# Assets
+gem 'jquery-rails'
+gem 'sass', '~> 3.4.9'
+gem 'sass-rails'
+gem 'coffee-rails'
+gem 'uglifier'
+gem 'concurrent-ruby','1.1.2'
+
+platform :ruby do
+  gem 'mysql2', '~> 0.3.17'
+  gem 'pg', '~> 0.18.1'
+  gem 'activerecord-postgis-adapter', '3.0.0.beta2'
+  gem 'sqlite3'
+
+  gem 'newrelic_rpm', '~> 3.9.9'
+  #gem 'unicorn'
+  gem 'puma'
+  gem 'json', '>= 2.0'
+  gem 'minitest'
+  gem 'psych', '~> 2.0.8'
+  gem 'racc'
+  
+end
+>>>>>>> 21f974f4d19303c7674785166d7d5f00cbad4973
 
 group :development, :test do
         gem 'diff-lcs', '1.2.5'
