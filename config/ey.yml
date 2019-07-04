@@ -111,7 +111,7 @@ defaults:
   # If the application's gems are vendored in the
   # repository, setting --local can speed up bundle.
   #
-  #bundle_options:
+  bundle_options: --verbose --full-index 
 
   # Enable maintenance page during migrate action (default)
   # Setting this to false, disables maintenance page during migrations.
