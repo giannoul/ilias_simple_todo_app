@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.5.3'
 
-gem 'rake','0.9.2.2'
+gem 'rake','12.3.3'
 gem 'rails','2.3.9'
 gem 'authlogic', '2.1.6'
 gem "state_machine","0.9.4"
